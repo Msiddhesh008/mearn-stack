@@ -1,0 +1,64 @@
+
+.logo-cnt{
+    position: absolute;
+    top: 1rem;
+    left: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.slider{
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 25vw;
+    background-color: #fbc531;
+    z-index: 2;
+    transition: ease-in 0.5s all;
+}
+
+.slider > .close{
+    color: #2f3640;
+    font-size: 3rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: #fbc531;
+    padding: 0.5rem;
+    border-radius: 50%;
+    right: 1rem;
+    position: absolute;
+    top: 1rem;
+    font-weight: bold;
+    opacity: 90%;
+    cursor: pointer;
+
+}
+
+.slider-logo-cnt{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #2f3640;
+}
+
+
+.logo-cnt > span{
+    font-family: 'Lobster', cursive;
+    font-size: 1.8rem;
+    color: #fbc531;
+}
+.hamburger{
+    color: #fbc531;
+    font-size: 3rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: #2f3640;
+    padding: 0.5rem;
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    z-index: 1;
+}

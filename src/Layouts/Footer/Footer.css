@@ -1,0 +1,15 @@
+.footer{
+    background-color: #2f3640;
+    color: #f5f6fa;
+}
+.left-cnt > span{
+    color: #fbc531;
+}
+
+.right-cnt{
+    font-size: 2rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2rem;
+}

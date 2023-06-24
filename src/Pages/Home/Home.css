@@ -1,0 +1,60 @@
+.home{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+.home-left{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    gap: 0.5rem;
+    color: #2f3640;
+    height: 100%;
+}
+.home-left > p{
+    font-size: 1.9rem;
+    font-weight: 500;
+    font-family: 'Caveat', cursive;
+}
+.home-left > button {
+    background-color: #fbc531;
+    outline: none;
+    border: none;
+    font-weight: 600;
+    color: #2f3640;
+    box-shadow: rgba(0, 0, 0, 0.80) 0px 1px 4px;
+    border-radius: 2px;
+}
+.home-right{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.brand-cnt{
+    background-color: #2f3640;
+}
+.brand-cnt  h1{
+    color: #fbc531;
+    display: flex;
+    justify-content: center;
+}
+
+.brand-cnt  .col-2{
+    font-size: 2.5rem;
+    color: white;
+}
+
+.video-cnt{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-cnt > video {
+    object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.80) 0px 1px 4px;
+    border-radius: 6px;
+}
