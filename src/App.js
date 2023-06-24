@@ -6,11 +6,11 @@ import Footer from "./Layouts/Footer/Footer";
 function App() {
   return (
     <>
-    <Header />
-    <Routes>
-      <Route path="/" element={ <Home /> } />
-    </Routes>
-    <Footer />
+      <Header />
+      <Routes>
+        <Route path="/mearn-stack/" element={<Home />} />
+      </Routes>
+      <Footer />
     </>
   );
 }
